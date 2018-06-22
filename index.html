@@ -1,0 +1,284 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta property="og:image" content="./img/thum.png">
+	<meta property="og:title" content="Dear.U">
+	<meta property="og:description" content="꽃과 시와 감성있는 온라인 전문 플라워샵">
+
+	<title>dearu_1</title>
+	<style type="text/css">
+		.nav {width: 1280px; height: 85px; background: #dad9dc;  margin: auto; }
+		a:link, a:active, a:visited, a:hover{text-decoration: none;}
+		a:link, a:active, a:visited{ color: black; }
+		a:hover{color: white; font-weight: bold; }
+
+		nav #menuList{ float: left; margin: 0; padding: 0;}
+		nav #menuList .main-menu-item{ list-style: none; float: left; width: 150px; height: 85px; }
+		nav #menuList .main-menu-item_1{ list-style: none; float: left; width: 167px; height: 85px; margin: auto;padding-left: 30px;}
+		nav #menuList .main-menu-item_2{ list-style: none; float: right;  height: 85px; margin: auto; padding-left: 200px; padding-top: 20px;}
+		nav #menuList a { display: block;  text-align: center; line-height: 85px; }
+		nav #contant {width: 1280px;  list-style:none; float: center;}
+
+
+		.header {width: 950px; height: 550px;  margin: 100px auto;  }
+		.header ul{width: 950px; height: 550px;  margin: 100px auto;  padding: 0px; list-style: none; float: right;}
+		#header_img {width: 477px; height:477px;  list-style: none; float: left;}
+		#header_type{width: 400px; height:550px;  list-style: none; float: left; padding-left: 28px;}
+		#header_type h5{ margin-top: 0px;}
+		#header_type h3{ margin-bottom: 0px;}
+		#header_type h2{ margin-bottom: 0px;}
+		
+		#sub { margin-top: 0px; margin-bottom: 30px;}
+		#sub_h5 { margin-top: 0px; margin-bottom: 8px;}
+		#sub_h4 { margin-top: 0px; margin-bottom: 0px;}
+		#sub_h3 { margin-top: 0px; margin-bottom: 5px;}
+		#sub_h3_1 { margin-top: 0px; margin-bottom: 25px;}
+		#sub_h3_2 { margin-top: 15px; margin-bottom: 5px; width: 100px; margin-right: 0px; padding-right: 0px;}
+		#sub_h2 { margin-top: 10px; }
+
+		input[type=text] {width: 95px; height: 30px; box-sizing: border-box;  border: 3px solid #ccc;-webkit-transition: 0.5s; transition: 0.5s;outline: none; margin-top: 25px;}
+		input[type=text]:focus {border: 3px solid #555;}
+		select {width: 100px; height: 30px; border: none; border-radius: 4px; }
+
+		#hover a { display: block;  text-align: center; width: 150px; list-style: none; float: right; padding-right: 17px;}
+		.header a:link {color: gray;}
+		.header a:visited {color: gray; text-decoration: none;}
+		.header a:hover {color: black; text-decoration: none;}
+		
+
+		.main {width: 950px; height: 518px; margin-top: 100px; margin: 100px auto;}
+
+
+		.div1{width: 950px; height: 600px;  margin: 200px auto 60px auto; border-style: groove; border-width: 3px 0px 0px 0px; }
+		#div1_h3 {margin-top: 100px;}
+		#div1_h3_1 {margin-top: 75px;}
+		#div1_h5 {line-height: 25px; padding-left: 40px;}
+		#div1_h5_1 {line-height: 25px; padding-left: 40px; margin-bottom: 100px;}
+
+
+		.div2{width: 950px; height: 550px;  margin: 100px auto;  border-style: groove; border-width: 3px 0px 0px 0px;}
+		.div2 ul {width: 950px; height: 550px;  margin: 100px auto;  padding: 0px; list-style: none; float: right;}
+		#div_2_type {width: 430px; height:550px;  list-style: none; float: left; padding-left: 28px;}
+		#div_2_type_h4 {  list-style: none; float: left;  line-height: 28px; margin-top: 0px;}
+		#div_2_h3 {margin-top: 45px; margin-bottom: 15px;}
+		#div_2_h3_2 {margin-top: 150px; margin-bottom: 15px;}
+		#div_2_img {width: 477px; height:477px;  list-style: none; float: left;}
+
+		
+		.div3{width: 950px; height: 5482px; margin-top: 100px; margin: 100px auto; border-style: groove; border-width: 3px 0px 0px 0px; }
+
+
+		.div4{width: 950px; height: 418px; margin-top: 100px; margin: 100px auto;}
+
+		.div6{width: 950px; height: 531px; margin: auto;}
+
+		.div5{width: 950px; height: 370px; margin: 50px auto 0 auto; border-style: groove; border-width: 3px 0px 3px 0px; }
+		#div5_h3 {margin-top: 100px;}
+		#div5_h3_1 {margin-top: 75px;}
+		#div5_h5 {line-height: 25px; padding-left: 40px;}
+		#div5_h5_1 {line-height: 25px; padding-left: 40px; margin-bottom: 100px;}
+		
+
+		.footer {width: 1280px; height: 360px;  margin: 0px auto 0px auto; background: #dad9dc;border-style: groove; border-width: 0px 0px 3px 0px;}
+		.img {width: 1280px; height: 120px; margin: 0px auto 0px auto;  }
+		#img {width: 200px; height: 120px; margin: 0 0 0 0;list-style: none; float: left;}
+		#type {width: 300px; height: 120px; margin: 0; list-style: none; float: left;}
+		#type h6 {margin: 0; color: #78767b;}
+		#type h1 {margin: 15px 0 0 0;}
+		.page {width: 1280px;  margin: 70px auto 0px auto; }
+		#explain {width: 750px;  list-style: none; float: left; color: #78767b;}
+		#explain h5 {line-height: 29px; margin: 0;color: #78767b; }
+		#chart { list-style: none; float: right; padding-left: 15px;}
+		#chart h5 {color: #78767b; line-height: 20px;}
+
+		.footer_2 {width: 1280px; margin: 0px auto 0px auto;}
+		#last {list-style: none; float: right; color:#8a898d; margin: 0; }
+		#last h5 {margin: 0; padding-left: 30px;}
+
+	</style>
+</head>
+
+
+<body>
+	<nav class="nav">
+		
+		<ul id="menuList">
+			<li class="main-menu-item_1">
+				<img src="./img/nav_img.png" height="85px;"> 
+			</li>
+			<li class="main-menu-item"><a href="index.html" target="_blank">월간 할인</a>
+			</li>
+			<li class="main-menu-item">
+				<a href="index.html" target="_blank">Best 30</a>
+			</li>
+
+			<li class="main-menu-item">
+				<a href="index.html" target="_blank">Season Flower</a>
+			</li>
+
+			<li class="main-menu-item">
+				<a href="index.html" target="_blank">기념일 꽃다발</a>
+			</li>
+
+			<li class="main-menu-item_2">
+				<img src="./img/logo_1.png">
+			</li>
+		</ul>
+	</nav>
+
+
+	<header class="header" >
+		<ul>
+			<li id="header_img">
+				<img src="./img/32_1.png">
+			</li>
+
+			<li id="header_type">
+				<h2 id="sub_h2">레가토 장미 (주황 장미)</h2>
+				<h4 id="sub">Legato (Orange rose)</h4>
+				<h3>Price : 45,000 won</h3>
+				<h5 id="sub_h5">(10송이 단일 품종 다발일 경우에 한해서만)</h5>
+				<h3 id="sub_h3">Point : 300 point</h3>
+				<h5 id="sub_h5">(회원의 경우에 한해서)</h5>
+				<h4 id="sub_h4">배송비 : 2500 won</h4>
+				<h5>(50,000원 이상 구매시 배송비 무료)</h5>
+				<h4>원산지 : 영국, 일본</h4>
+				<h3 id="sub_h3_1">누적 판매 : 1450 송이</h3>
+				<form>
+					<label for="fname">송이 갯수</label>
+  					<input type="text" id="fname" name="fname" value="0000">
+  					<label for="fname">송이</label>
+				</form>
+				<h4 id="sub_h3_2"> 스타일링</h4>
+				<form>
+					<select id="스타일링1" name="스타일링1">
+						<option value="1"> 바구니</option>
+						<option value="2"> 핸드 타이드</option>
+					</select>
+				</form>
+				<form>
+					<select id="스타일링2" name="스타일링2">
+						<option value="1"> 다른 꽃 혼합</option>
+						<option value="2"> 단일 품종</option>
+					</select>
+				</form>
+
+			</li>
+			<li id="hover">
+				<a href="none" target="_blank"> BUT IT NOW</a>
+			</li>
+			<li id="hover">
+				<a href="none" target="_blank"> ADD TO CHART</a>
+			</li>
+			<li id="hover">
+				<a href="none" target="_blank"> WISH LIST</a>
+			</li>
+		</ul>
+	</header>
+
+	<div class="div1">
+		<h3 id="div1_h3">상품 유의사항</h3>
+		<h5 id="div1_h5">주문 후, 다음 날 새벽에 도매 시장에서 꽃을 구매하여 제작하기 때문에 배송에 입금 확인 후 제작 완료까지 2~3일정도의 시간이 소요됩니다.<br> 상품 전부 수제로 직접 제작하기 때문에 보이는 상품 이미지와 차이가 있을 수 있습니다. <br>상품 주문 후, 이미 제작이 들어간 상품에 대해서는 교환 및 환불이 불가합니다. <br>계절에 따라 구매 가능한 꽃의 품목이 변할 수도 있습니다.
+		</h5>
+
+		<h3 id="div1_h3_1">배송 유의사항</h3>
+		<h5 id="div1_h5_1">배송은 우체국 택배를 이용하며, 배송비는 5만원미만 구매시 2500원/ 5만원이상 구매시 무료입니다. <br>일부지역의 도선료는 무료 배송 금액에 상관없이 별도 추가 됩니다. <br>제주도 지역은 구매금액과 상관없이 항공료는 무료입니다. (배송비는 5만원 이상 무료) <br>배송기간은 1-3일 소요되며 주말과 공휴일에는 그 기간만큼 더해져서 배송 됩니다. <br>상품 수령 후 2일 이내에 반품/교환 접수 후 7일 이내에 회수되어야 환불 진행 됩니다. <br>상품이상의 경우 해당상품의 회수 및 확인 후 바로 환불 진행됩니다. 
+
+		</h5>
+	</div>
+
+	<div class="div2">
+		<ul>
+			<li id="div_2_img">
+				<img src="./img/div_2_2.png" >
+			</li>
+			<li id="div_2_type">
+				<h3 id="div_2_h3">레가토 장미 (주황 장미)</h3>
+				<h5 id="div_2_type_h4">길이 20cm ~30cm (스타일링에 따라 다소 길이의 차이가 있을 수 있습니다.) <br>구매 가능 계절 : 여름 (6월 초 ~ 9월 말)</h5>
+
+				<h3 id="div_2_h3_2">주의사항</h3>
+				<h5 id="div_2_type_h4">장미의 색은 송이마다 약간의 차이를 보이며, 보이는 이미지와 다를 수 있음을 알려드립니다.<br> 다른 꽃과 혼합하여 스타일링을 원하실 때는 랜덤으로 다른 꽃이 스타일링되며 알레르기가 있거나 넣으면 안되는 꽃이 있을 때에는 상세 주문 란에 기재하여 주시기 바랍니다.<br> 혼합 스타일링은 단일 꽃 10송이 가격 (레가토 장미 : 45,000won)을 기준으로 주문 및 제작됩니다. </h5>
+
+			</li>
+		</ul>
+	</div>
+
+	<div class="div3">
+		<img src="./img/div_3.png">
+	</div>
+
+	<div class="div4">
+		<img src="./img/div_4.png">
+	</div>
+
+	<div class="div6">
+		<img src="./img/div_6.png">
+	</div>
+
+	<div class="div5">
+		<h3 id="div5_h3">교환 및 환불 안내</h3>
+		<h5 id="div5_h5">생화이기 때문에 개인의 사정으로 인한 환불은 불가합니다.<br>네임 택(tag)이나 따로 신청하신 엽서의 문제가 있을 경우에 한하여 수정하여 따로 보내드립니다.<br>상품 불량인 경우는 배송비를 포함한 전액이 환불됩니다.<br>출고 이후 환불요청 시 상품 회수 후 처리됩니다.<br>특정 꽃의 경우에는 상품설명에 별도로 기입된 교환 / 환불  기준이 우선합니다.<br>구매자가 미성년자인 경우에는 상품 구입 시 법정대리인이 동의하지 아니하면 미성년자 본인 또는 법정대리인이 구매취소 할 수 있습니다.
+		</h5>	
+	</div>
+
+	<footer class="footer" >
+		<div class="img">
+			<ul>
+				<li id="img">
+					<img src="./img/nav_img.png" width="175px;">
+				</li>
+				<li id="type">
+					<h1>1688-2129</h1>
+					<h6>OPEN 10:00 ~ 18:00 <br> BREAK 12:00 ~ 14:00 <br> DAY OFF (SATURDAY, SUNDAY, HOLIDAY)</h6>
+				</li>
+			</ul>
+			
+		</div>
+		<div class="page">
+			<ul>
+				<li id="explain">
+					<h5>
+						DEAR . U 는 생화 전문 오라인 샵입니다. <br> 생화를 다루기 때문에 각 계절에 맞는 꽃을 직접 도매하여 제작합니다. <br> 현재 DEAR . U 는 서울 및 경기도(용인, 수원, 평택, 인천) 과 부산 및 경남(마산, 김해, 울산, 진주, 거제)에서 <br> 가장 신선하게 받아보실 수 있습니다. <br> 배송 시에는 소량의 물과 함께 배송되므로 취급에 주의하여 주시기 바랍니다.
+					</h5>
+				</li>
+				<li id="chart">
+					<h4>HELP </h4>
+					<h5>1:1 상담내역 <br> 내가 작성한 Q&A 내역 <br> 공지사항 <br> FAQ</h5>
+				</li>
+				<li id="chart">
+					<h4>MY PAGE </h4>
+					<h5>회원 정보 수정 <br> 쿠폰 및 포인트 <br> 회원 등급</h5>
+				</li>
+				<li id="chart">
+					<h4>MY ORDER </h4> 
+					<h5>주문 및 배송 확인 <br> 취소 교환 환불 내역 <br> 내가 쓴 후기 내역 <br> 증빙 서류 발급</h5>
+				</li>
+				<li id="chart">
+					<h4>DEAR U  </h4>
+					<h5>회사소개 <br> 회사 방침 <br> SNS</h5>
+				</li>
+			</ul>
+			
+		</div>
+		
+	</footer>
+	<footer class="footer_2">
+		<ul>
+			<li id="last">
+				<h5>팩스 : 031-0528-3333</h5>
+			</li>
+			<li id="last">
+				<h5>대표 전화 : 031-633-2129 / 010-0409-0169</h5>
+			</li>
+			<li id="last">
+				<h5>주소 : 경기도 평택시 비전3동 42-3</h5>
+			</li>
+			<li id="last">
+				<h5>사업자 등록 번호 : 139-99-49697</h5>
+			</li>
+		</ul>
+	</footer>
+</body>
+</html>
